@@ -1,7 +1,7 @@
 export function Tooltip({ isVisible, message }) {
     return (
       <div
-        className="teal lighten-2"
+        className="purple accent-4"
         style={{
           visibility: isVisible ? "visible" : "hidden",
           opacity: isVisible ? 1 : 0,

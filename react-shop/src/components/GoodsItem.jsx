@@ -22,7 +22,7 @@ export function GoodsItem({
       <div className="card-action">
         <div>
           <button
-            className="btn"
+            className="btn purple accent-4"
             onClick={() =>
               addToBasket({
                 mainId,

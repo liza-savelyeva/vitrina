@@ -97,19 +97,19 @@
   cursor: pointer;
   padding: 0.5rem;
   line-height: 1;
-  color: #666;
+  color: #999;
   transition: all 0.3s ease;
 }
 
 .modal-close:hover {
-  color: black;
+  color: #e91e63;
 }
 
 .cart-quantity {
   position: absolute;
   top: -2px;
   right: -8px;
-  background: red;
+  background: #e91e63;
   color: white;
   border-radius: 50%;
   padding: 2px 7px;
@@ -171,11 +171,11 @@
   cursor: pointer;
   color: #999;
   transition: all 0.2s ease;
+  font-size: 2rem;
 }
 
 .basket-delete:hover {
   color: #e91e63;
-  transform: scale(1.2);
 }
 
 .total-price {
